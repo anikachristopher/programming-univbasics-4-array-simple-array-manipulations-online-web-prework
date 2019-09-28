@@ -56,6 +56,7 @@ def using_shift
      expect(flat_array).to eq(["Saxophone", "Piano", "Trumpet", "Violin", "Drums", "Flute"])
   end
   
-  
+  def using_delete
+    
 
   
