@@ -45,6 +45,9 @@ def using_shift
   end
   
   def using_uniq
-    
+    haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+    new_array = using_uniq(haircuts)
+    expect(new_array).to eq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"])
+  end
 
   
