@@ -57,6 +57,13 @@ def using_shift
   end
   
   def using_delete
+    instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+    no_offense_steven = using_delete(instructors, "Steven")
+    expect(instructors).not_to include("Steven")
+  end
+  
+  def using_delete_at
     
+  
 
   
