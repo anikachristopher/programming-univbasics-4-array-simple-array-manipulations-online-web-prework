@@ -49,5 +49,8 @@ def using_shift
     new_array = using_uniq(haircuts)
     expect(new_array).to eq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"])
   end
+  
+  def using_flatten
+    
 
   
