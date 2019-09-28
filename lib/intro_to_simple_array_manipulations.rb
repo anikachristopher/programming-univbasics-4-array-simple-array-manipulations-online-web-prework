@@ -32,3 +32,5 @@ def using_shift
    @brands_removed = shift_with_args(@ice_cream_brands)
   end
   
+
+  
